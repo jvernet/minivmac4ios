@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -359,6 +359,8 @@
 		28F6B4C91CF1FA7A002D76D0 /* about.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = about.plist; sourceTree = "<group>"; };
 		28F6B4CE1CF77099002D76D0 /* compat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = compat.m; sourceTree = "<group>"; };
 		28F875921D29402B001E99EB /* PlugIn-Capabilities.plist.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PlugIn-Capabilities.plist.xml"; sourceTree = "<group>"; };
+		4EE5ACCA1F99088600E34329 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		4EE5ACCB1F99088900E34329 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -903,7 +905,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = namedfork;
+				ORGANIZATIONNAME = bxo;
 				TargetAttributes = {
 					283422C91CF8EF8C0088B634 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -920,7 +922,6 @@
 					};
 					28F676BC1CD15E0B00FC6FA6 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = UJXNDZ5TNU;
 					};
 					28F6B48D1CF07DDD002D76D0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -934,7 +935,7 @@
 				};
 			};
 			buildConfigurationList = 28F676B81CD15E0B00FC6FA6 /* Build configuration list for PBXProject "Mini vMac" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1279,6 +1280,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				28F676CA1CD15E0B00FC6FA6 /* Base */,
+				4EE5ACCA1F99088600E34329 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1287,6 +1289,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				28F676CF1CD15E0B00FC6FA6 /* Base */,
+				4EE5ACCB1F99088900E34329 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1522,6 +1525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1575,6 +1579,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1624,12 +1629,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 774X2MBDTH;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = "Mini vMac/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "-DUSE_LIBRES";
-				PRODUCT_BUNDLE_IDENTIFIER = net.namedfork.minivmac;
+				PRODUCT_BUNDLE_IDENTIFIER = net.bxo.minivmac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1641,12 +1647,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 774X2MBDTH;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = "Mini vMac/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "-DUSE_LIBRES";
-				PRODUCT_BUNDLE_IDENTIFIER = net.namedfork.minivmac;
+				PRODUCT_BUNDLE_IDENTIFIER = net.bxo.minivmac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
