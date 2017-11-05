@@ -1,18 +1,18 @@
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "6WO-0z-y7c"; */
-"6WO-0z-y7c.text" = "Title";
+"6WO-0z-y7c.text" = "Titre";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "8ef-Se-DXA"; */
-"8ef-Se-DXA.text" = "Title";
+"8ef-Se-DXA.text" = "Titre";
 
 /* Class = "UILabel"; text = "Detail"; ObjectID = "CbL-Kq-e9s"; */
-"CbL-Kq-e9s.text" = "Detail";
+"CbL-Kq-e9s.text" = "Détail";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "YWX-qF-gPj"; */
-"YWX-qF-gPj.text" = "Title";
+"YWX-qF-gPj.text" = "Titre";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "a1l-XI-MEz"; */
-"a1l-XI-MEz.text" = "Title";
+"a1l-XI-MEz.text" = "Titre";
 
 /* Class = "UISegmentedControl"; gQ6-2l-dni.segmentTitles[0] = "1x"; ObjectID = "gQ6-2l-dni"; */
 "gQ6-2l-dni.segmentTitles[0]" = "1x";
@@ -36,7 +36,7 @@
 "gQ6-2l-dni.segmentTitles[6]" = "∞";
 
 /* Class = "UINavigationItem"; title = "Insert Disk"; ObjectID = "hjJ-Yt-wg8"; */
-"hjJ-Yt-wg8.title" = "Insert Disk";
+"hjJ-Yt-wg8.title" = "Choisir Disque";
 
 /* Class = "UISegmentedControl"; jgK-lW-V9w.segmentTitles[0] = "Touchscreen"; ObjectID = "jgK-lW-V9w"; */
 "jgK-lW-V9w.segmentTitles[0]" = "Touchscreen";
@@ -48,7 +48,7 @@
 "pie-Ez-AWv.title" = "Disques";
 
 /* Class = "UINavigationItem"; title = "Settings"; ObjectID = "tWH-Og-D4U"; */
-"tWH-Og-D4U.title" = "Settings";
+"tWH-Og-D4U.title" = "Paramètres";
 
 /* Class = "UILabel"; text = "Detail"; ObjectID = "xcq-HY-ZDe"; */
 "xcq-HY-ZDe.text" = "Détail";
