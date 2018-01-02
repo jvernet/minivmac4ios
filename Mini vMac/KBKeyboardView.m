@@ -24,7 +24,6 @@
     CGSize selectedSize;
 }
 
-- (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor colorWithRed:0xEB / 255.0 green:0xF0 / 255.0 blue:0xF7 / 255.0 alpha:0.9];
@@ -53,7 +52,6 @@
 
     // try sideways
     if (CGSizeEqualToSize(selectedSize, CGSizeZero)) {
-        preferredWidth = self.frame.size.height;
         for (NSValue *key in layout.availableSizes) {
             CGSize size = key.CGSizeValue;
             if (!CGSizeEqualToSize(size, CGSizeZero) && size.width > selectedSize.width && size.width <= preferredWidth) {
@@ -79,11 +77,9 @@
             defaultKeyTransform = CGAffineTransformMakeScale(frameWidth / selectedSize.width, 1.33333);
         } else {
             // iPhone keyboard on bigger phone
-            CGFloat wScale = self.frame.size.width / selectedSize.width;
             defaultKeyTransform = CGAffineTransformMakeScale(wScale, 1.0);
         }
     }
-    self.frame = CGRectMake(0, 0, self.frame.size.width, selectedSize.height * defaultKeyTransform.d);
 
     // init keyplanes array
     NSUInteger numberOfKeyPlanes = layout.numberOfKeyPlanes;
